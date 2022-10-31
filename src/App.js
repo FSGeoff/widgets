@@ -1,28 +1,16 @@
 import React from 'react';
 import Accordion from "./components/Accordion";
 import Search from "./components/Search";
-
-const items = [
-    {
-        title: 'What is React?',
-        content: 'A front-end Javascript framework'
-    },
-    {
-        title: 'Why use React?',
-        content: 'Because its dope!'
-    },
-    {
-        title: 'How do you use React?',
-        content: 'Let\'s find out now'
-    }
-];
-
+import Dropdown from "./components/Dropdown";
+import {options} from './arrays/Options';
+import {items} from "./arrays/items";
 
 export const App = () => {
     return (
         <div>
             {/*<Accordion items={items}/>*/}
-            <Search />
+            {/*<Search />*/}
+            <Dropdown options={options}/>
         </div>
     );
 }
