@@ -21,10 +21,6 @@ export const languageOptions = [
         value: 'es'
     },
     {
-        label: 'French',
-        value: 'fr'
-    },
-    {
         label: 'Hebrew',
         value: 'iw'
     },
