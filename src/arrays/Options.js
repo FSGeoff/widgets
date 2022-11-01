@@ -12,3 +12,40 @@ export const options = [
         value: 'blue'
     }
 ]
+
+export const languageOptions = [
+
+
+    {
+        label: 'Spanish',
+        value: 'es'
+    },
+    {
+        label: 'French',
+        value: 'fr'
+    },
+    {
+        label: 'Hebrew',
+        value: 'iw'
+    },
+    {
+        label: 'German',
+        value: 'de'
+    },
+    {
+        label: 'Swahili',
+        value: 'sw'
+    },
+    {
+        label: 'Portuguese',
+        value: 'pt'
+    },
+    {
+        label: 'Dutch',
+        value: 'nl'
+    },
+    {
+        label: 'English (UK)',
+        value: 'en-GB'
+    }
+];
